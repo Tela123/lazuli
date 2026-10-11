@@ -6,6 +6,8 @@
 <script>document.documentElement.classList.add("js")</script>
 <title>Lazuli — Boissons, repas, desserts et apéro</title>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet">
+<script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js"></script>
 <style>
 :root{--blue:#1536c9;--ink:#0a1a5c;--sky:#dce6ff;--gold:#ffb627;--bg:#f6f8ff;--card:#fff;--text:#0f1b4d;--mute:#5b6694;--line:#d9e0f5;
 box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
@@ -18,7 +20,9 @@ h1,h2,h3{font-family:"Bricolage Grotesque","DM Sans",system-ui,sans-serif;line-h
 button{font:inherit;cursor:pointer;border:0;color:inherit}
 :focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 .wrap{max-width:1120px;margin:0 auto;padding:0 20px}
-
+.thumb .e, .big, .em, .next {
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji","Twemoji Mozilla", sans-serif;
+}
 /* hero */
 .hero{background:var(--blue);color:#fff;padding:20px 0 64px;transition:background .4s}
 .nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:40px}
