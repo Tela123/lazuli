@@ -192,8 +192,8 @@ body.leaving{opacity:0}
         <h2>Une question, une commande spéciale ?</h2><p>Écrivez-nous ou appelez, nous répondons chaque jour.</p>
       </div>
       <ul>
-        <li>contact@lazuli.example</li>
-        <li>+237 6 00 00 00 00</li>
+        <li>boodjougtelaismaella@gmail.com</li>
+        <li>+237 6 98 97 39 32</li>
         <li>Tous les jours, 9 h – 22 h</li>
       </ul>
     </div>
@@ -230,7 +230,7 @@ const P=[
 const $=s=>document.querySelector(s), fmt=n=>n.toLocaleString("fr-FR").replace(/\u202f/g," ")+" FCFA";
 let cart={}, filter="Tout", hero=P[0], st, tm;
 const BG={Boissons:"#1536c9",Repas:"#0a1a5c",Desserts:"#1e6bff","Apéro":"#c97a00"},SL=CATS.map(c=>P.find(x=>x.c===c)),rm=matchMedia("(prefers-reduced-motion: reduce)").matches;
-const WA="237600000000"; // numéro WhatsApp au format international, sans le +
+const WA="237698973932"; // numéro WhatsApp au format international, sans le +
 function go(n){hero=SL[(SL.indexOf(hero)+n+SL.length)%SL.length];renderTabs();renderHero();loop()}
 function loop(){clearInterval(tm);if(!rm)tm=setInterval(()=>go(1),5200)}
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.15,rootMargin:"0px 0px -40px 0px"});
